@@ -160,8 +160,8 @@ public class SelFirst {
 
         driver.get("https://np01-playeraccountmanagement-bos.olg.bedegaming.net/");
         sleep(3000);
-        driver.findElement(By.xpath("//*[@id=\"Username\"]")).sendKeys("OLG_AKunjir");
-        driver.findElement(By.xpath("//*[@id=\"Password\"]")).sendKeys("Vinaya@7398");
+        driver.findElement(By.xpath("//*[@id=\"Username\"]")).sendKeys("your_username");
+        driver.findElement(By.xpath("//*[@id=\"Password\"]")).sendKeys("your_password");
         driver.findElement(By.xpath("//*[@id=\"loginSubmit\"]")).click();
         sleep(5000);
         driver.findElement(By.xpath("//*[@id=\"unifiedSearch\"]")).sendKeys(userName);
